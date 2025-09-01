@@ -1,0 +1,67 @@
+# =========================
+# JetBrains / CLion
+# =========================
+.idea/
+*.iml
+cmake-build-*/
+
+# =========================
+# CMake
+# =========================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# =========================
+# 编译产物
+# =========================
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# =========================
+# 备份文件 / 临时文件
+# =========================
+*.swp
+*.swo
+*~
+*.log
+*.tmp
+
+# =========================
+# macOS 系统文件
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Windows 系统文件
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# 编译器相关
+# =========================
+*.dSYM/
+*.pdb
+
+# =========================
+# CLion Remote Dev / WSL
+# =========================
+.clwb/
